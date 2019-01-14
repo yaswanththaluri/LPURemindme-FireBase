@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "647365994571",
+    "firebase_url": "https://lpu-remind-me.firebaseio.com",
+    "project_id": "lpu-remind-me",
+    "storage_bucket": "lpu-remind-me.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647365994571:android:49c1c83dc1b1c42c",
+        "android_client_info": {
+          "package_name": "com.maya.yaswanththaluri.remindme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647365994571-oa9jbpfj2r2q7f15vcvnishmnj9m5lul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maya.yaswanththaluri.remindme",
+            "certificate_hash": "f4b01a8534aee03dda71083516b4f4815f603b44"
+          }
+        },
+        {
+          "client_id": "647365994571-skcs88muhvjrb9shkr1qvd59o8rjq003.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBB5-IKznuqC42yRFdN38nGolMakFVh6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647365994571-skcs88muhvjrb9shkr1qvd59o8rjq003.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/exam"
+        android:id="@+id/exam"
+        android:title="Schedule"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:icon="@drawable/announcement"
+        android:id="@+id/announcements"
+        android:title="Announcements"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:icon="@drawable/profile"
+        android:id="@+id/profile"
+        android:title="Profile"
+        app:showAsAction="ifRoom"/>
+</menu>

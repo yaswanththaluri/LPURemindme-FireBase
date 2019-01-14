@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Remind Me</string>
+
+    <string-array name="groups">
+        <item>Groups-1,2</item>
+        <item>Group-1</item>
+        <item>Group-2</item>
+    </string-array>
+
+    <string name="description">
+        "1. The main aim of this app is to create awareness on upcoming CA's regarding Date, Syllabus and groups etc.\n2. This app has a real time Database that helps to show you the ca's whenever it is uploaded into our database.\n3. The write access to database is only given to the CR's of the section.\n4. The Students have only read access from database to secure the content."
+    </string>
+
+    <string name="request"><u>Request for CR Access</u>.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="open_drawer">Open Navigation Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
+
+
+    <string name="addtest">Add Test</string>
+    <string name="deletetest">Delete Test</string>
+    <string name="about">About</string>
+</resources>

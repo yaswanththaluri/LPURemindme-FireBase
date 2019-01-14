@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/annuncementList"
+        android:transcriptMode="alwaysScroll"
+        android:layout_marginBottom="60dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="65dp"
+        android:background="#ffffff"
+        android:layout_marginRight="25dp"
+        android:id="@+id/editann"
+        android:visibility="invisible"
+        android:src="@drawable/writte"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/noresults"
+        android:visibility="invisible"
+        android:id="@+id/noresults"/>
+
+</RelativeLayout>

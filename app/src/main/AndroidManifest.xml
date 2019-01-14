@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.maya.yaswanththaluri.remindme">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_lpu"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_lpu"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddTest"
+            android:label="Add Test"
+            android:theme="@style/Profile" />
+        <activity
+            android:name=".DeleteTest"
+            android:label="Delete Test"
+            android:theme="@style/Profile" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DashBoard"
+            android:label="Dashboard"
+            android:theme="@style/Profile" />
+        <activity
+            android:name=".AddNotification"
+            android:label="Add Notification"
+            android:theme="@style/Profile" />
+
+        <activity android:name=".DeleteNotification"
+            android:label="Delete Announcement"
+            android:theme="@style/Profile"/>
+
+
+
+    </application>
+
+</manifest>
